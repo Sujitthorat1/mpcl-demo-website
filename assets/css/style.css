@@ -419,6 +419,7 @@ h6 {
   left: 0;
   z-index: -1;
 }
+
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
@@ -591,7 +592,8 @@ section {
 .why-us .content {
   padding: 30px;
   background: #ff5821;
-  border-radius: 4px;
+  border: none;
+  border-radius: 40px 10px;
   color: #fff;
 }
 
@@ -627,7 +629,7 @@ section {
   text-align: center;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   width: 100%;
 }
@@ -843,7 +845,7 @@ section {
   text-align: center;
   height: 200px;
   position: relative;
-  background: #fff;
+  background: #ffe1e1;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1059,6 +1061,10 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+.card {
+  border-radius: 10%;
 }
 
 /*--------------------------------------------------------------
