@@ -593,7 +593,7 @@ section {
   padding: 30px;
   background: #ff5821;
   border: none;
-  border-radius: 40px 10px;
+  border-radius: 10px 40px 10px 40px;
   color: #fff;
 }
 
